@@ -19,6 +19,8 @@
 		B86E4C1218F6D40E0020789B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86E4BFA18F6D40E0020789B /* UIKit.framework */; };
 		B86E4C1A18F6D40E0020789B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B86E4C1818F6D40E0020789B /* InfoPlist.strings */; };
 		B86E4C1C18F6D40E0020789B /* EmptyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B86E4C1B18F6D40E0020789B /* EmptyAppTests.m */; };
+		B86E4C2818F6D4D10020789B /* EAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86E4C2618F6D4D10020789B /* EAViewController.m */; };
+		B86E4C2918F6D4D10020789B /* EAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86E4C2718F6D4D10020789B /* EAViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		B86E4C1718F6D40E0020789B /* EmptyAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmptyAppTests-Info.plist"; sourceTree = "<group>"; };
 		B86E4C1918F6D40E0020789B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B86E4C1B18F6D40E0020789B /* EmptyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyAppTests.m; sourceTree = "<group>"; };
+		B86E4C2518F6D4D10020789B /* EAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAViewController.h; sourceTree = "<group>"; };
+		B86E4C2618F6D4D10020789B /* EAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAViewController.m; sourceTree = "<group>"; };
+		B86E4C2718F6D4D10020789B /* EAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				B86E4C0618F6D40E0020789B /* EAAppDelegate.m */,
 				B86E4C0818F6D40E0020789B /* Images.xcassets */,
 				B86E4BFD18F6D40E0020789B /* Supporting Files */,
+				B86E4C2518F6D4D10020789B /* EAViewController.h */,
+				B86E4C2618F6D4D10020789B /* EAViewController.m */,
+				B86E4C2718F6D4D10020789B /* EAViewController.xib */,
 			);
 			path = EmptyApp;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86E4C0118F6D40E0020789B /* InfoPlist.strings in Resources */,
+				B86E4C2918F6D4D10020789B /* EAViewController.xib in Resources */,
 				B86E4C0918F6D40E0020789B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86E4C2818F6D4D10020789B /* EAViewController.m in Sources */,
 				B86E4C0718F6D40E0020789B /* EAAppDelegate.m in Sources */,
 				B86E4C0318F6D40E0020789B /* main.m in Sources */,
 			);
